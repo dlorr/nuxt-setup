@@ -6,6 +6,8 @@ export default defineNuxtConfig({
       title: "My Application",
       titleTemplate: "%s - Nuxt Setup",
     },
+    pageTransition: { name: "page", mode: "out-in" },
+    layoutTransition: { name: "layout", mode: "out-in" },
   },
   // npm run dev
   $development: {
